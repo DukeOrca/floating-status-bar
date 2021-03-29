@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">FloatingStatusBar</string>
+
+    <!-- FloatingStatusBar -->
+    <string name="notification_channel_description">Channel Description</string>
+    <string name="notification_content_text">Notification Content Text</string>
+
+    <!-- Configuration -->
+    <string name="CONFIGURATION_000">SHOW FLOATING STATUS BAR</string>
+    <string name="CONFIGURATION_001">HIDE FLOATING STATUS BAR</string>
 </resources>
