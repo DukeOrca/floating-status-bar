@@ -9,3 +9,4 @@
 ### [How to detect when an Android app goes to the background and come back to the foreground](https://stackoverflow.com/questions/4414171/how-to-detect-when-an-android-app-goes-to-the-background-and-come-back-to-the-fo)
 ### [Sticky overlay without WindowManager.LayoutParams.TYPE_PHONE](https://stackoverflow.com/questions/55251502/sticky-overlay-without-windowmanager-layoutparams-type-phone)
 ### [What is the difference between the words 'setting' and 'configuration' in the context of software industry?](https://www.quora.com/What-is-the-difference-between-the-words-setting-and-configuration-in-the-context-of-software-industry)
+### [When adding view to window with WindowManager.LayoutParams.TYPE_SYSTEM_OVERLAY, it is not getting touch event](https://stackoverflow.com/questions/37138546/when-adding-view-to-window-with-windowmanager-layoutparams-type-system-overlay/37348311)
