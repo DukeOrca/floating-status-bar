@@ -1,6 +1,17 @@
 # FloatingStatusBar
 
 ## References
+### [[Android] Activity, Service 여러 번 호출시 인스턴스는?](https://readystory.tistory.com/52)
+Activity와 Service는 안드로이드 4대 컴포넌트로써 Activity는 startActivity()를, Service는 Context.startService() 또는 bindService()를 사용하여 실행할 수 있습니다.
+안드로이드 프레임워크가 제공하는 컴포넌트는 우리가 **new 키워드를 통해서 직접 생성하는 것이 아닙니다.**
+
+#### 서비스 여러 번 호출시(when to start Service multiple)
+안드로이드 개발자들의 교과서인 [*developer*](https://developer.android.com/reference/android/app/Service?authuser=1#ProcessLifecycle) 사이트에 따르면 **서비스는 여러번 호출되어도 인스턴스가 하나**입니다!
+
+그렇다면 이미 서비스가 실행되어 있는 상태에서는 startService()가 무시될까요?
+
+아닙니다. 이미 서비스가 있더라도 호출이 되는 순간 **onStartCommand() 메소드가 실행**되고, 만약 이를 실행할 수 없는 상태라면 onCreate() 메소드를 실행하고서 대기하게 됩니다.
+
 ### [[Android O] Not allowed to start service Intent](https://parkho79.tistory.com/12)
 ### [Android: How to detect when App goes background/foreground](https://medium.com/@iamsadesh/android-how-to-detect-when-app-goes-background-foreground-fd5a4d331f8a)
 ### [Android: permission denied for window type 2038 using TYPE_APPLICATION_OVERLAY](https://stackoverflow.com/questions/46208897/android-permission-denied-for-window-type-2038-using-type-application-overlay)
