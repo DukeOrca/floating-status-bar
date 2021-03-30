@@ -10,3 +10,4 @@
 ### [Sticky overlay without WindowManager.LayoutParams.TYPE_PHONE](https://stackoverflow.com/questions/55251502/sticky-overlay-without-windowmanager-layoutparams-type-phone)
 ### [What is the difference between the words 'setting' and 'configuration' in the context of software industry?](https://www.quora.com/What-is-the-difference-between-the-words-setting-and-configuration-in-the-context-of-software-industry)
 ### [When adding view to window with WindowManager.LayoutParams.TYPE_SYSTEM_OVERLAY, it is not getting touch event](https://stackoverflow.com/questions/37138546/when-adding-view-to-window-with-windowmanager-layoutparams-type-system-overlay/37348311)
+### [[안드로이드] 최상단 위치에 View 뛰우기 (Service, overlay, M check permission)](https://milkissboy.tistory.com/46)
