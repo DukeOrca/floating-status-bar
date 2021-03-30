@@ -12,6 +12,10 @@ Activity와 Service는 안드로이드 4대 컴포넌트로써 Activity는 start
 
 아닙니다. 이미 서비스가 있더라도 호출이 되는 순간 **onStartCommand() 메소드가 실행**되고, 만약 이를 실행할 수 없는 상태라면 onCreate() 메소드를 실행하고서 대기하게 됩니다.
 
+만약 내가 기존의 인스턴스를 메모리 해제하고서 새로운 인스턴스를 만들고 싶다면?
+
+안드로이드 서비스는 stopSelf() 또는 Context.stopService()를 실행하기 전까지는 인스턴스가 메모리 해제되지 않기 때문에 만약 새로운 **인스턴스를 생성하고 싶으시다면 stopSelf() 또는 context.stopService() 메소드를 실행하신 후에 다시 서비스를 호출**하시면 되겠습니다.
+
 ### [[Android O] Not allowed to start service Intent](https://parkho79.tistory.com/12)
 ### [Android: How to detect when App goes background/foreground](https://medium.com/@iamsadesh/android-how-to-detect-when-app-goes-background-foreground-fd5a4d331f8a)
 ### [Android: permission denied for window type 2038 using TYPE_APPLICATION_OVERLAY](https://stackoverflow.com/questions/46208897/android-permission-denied-for-window-type-2038-using-type-application-overlay)
