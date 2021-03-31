@@ -17,6 +17,7 @@ Activity와 Service는 안드로이드 4대 컴포넌트로써 Activity는 start
 안드로이드 서비스는 stopSelf() 또는 Context.stopService()를 실행하기 전까지는 인스턴스가 메모리 해제되지 않기 때문에 만약 새로운 **인스턴스를 생성하고 싶으시다면 stopSelf() 또는 context.stopService() 메소드를 실행하신 후에 다시 서비스를 호출**하시면 되겠습니다.
 
 ## [[Android O] Not allowed to start service Intent](https://parkho79.tistory.com/12)
+## [Android Tablayout tabs with notification badge like whatsApp](https://stackoverflow.com/questions/31968162/android-tablayout-tabs-with-notification-badge-like-whatsapp)
 ## [Android: How to detect when App goes background/foreground](https://medium.com/@iamsadesh/android-how-to-detect-when-app-goes-background-foreground-fd5a4d331f8a)
 ## [Android: permission denied for window type 2038 using TYPE_APPLICATION_OVERLAY](https://stackoverflow.com/questions/46208897/android-permission-denied-for-window-type-2038-using-type-application-overlay)
 ## [android.app.RemoteServiceException: Context.startForegroundService() did not then](https://developside.tistory.com/96)
